@@ -4,3 +4,5 @@
 ## 2. 서블릿
 ### 2.1 Hello 서블릿
 - basic/HelloServlet.java
+### 2.4 HttpServletRequest - 기본 사용법
+- basic/request/RequestHeaderServlet.java
