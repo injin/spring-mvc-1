@@ -1,11 +1,11 @@
 # spring-mvc-1
 [인프런] 스프링 MVC 1편 - 백엔드 웹 개발 핵심 기술  
-> hello.servlet 하위 패키지에서   
+> servlet 폴더에서   
 > [섹션2] basic  
 > [섹션3] web.servlet  
 > [섹션3] web.servletmvc  
 > [섹션4] web.frontcontroller   
-> [섹션5] web.springmvc 순으로 볼 것
+> [섹션5] web.springmvc 패키지 순으로 볼 것
 
 ## 2. 서블릿
 ### 2.1 Hello 서블릿
@@ -45,9 +45,31 @@
 ### 5.6 스프링 MVC - 실용적인 방식
 - web/springmvc/v3 패키지
 
-
-
-
-
+---
+## 6. 스프링 MVC - 기본 기능
+> springmvc 폴더 볼 것  
+> 목차 : src/main/resources/static/index.html
+### 6.1 로깅 간단히 알아보기
+- basic/LogTestController.java
+### 6.3 요청 매핑
+- basic/requestmapping/MappingController.java
+### 6.4 요청 매핑 - API 예시
+- basic/requestmapping/MappingClassController.java
+### 6.5 HTTP 요청 - 기본, 헤더 조회
+- basic/request/RequestHeaderController.java
+### 6.6 HTTP 요청 파라미터 - 쿼리 파라미터, HTML Form
+### 6.7 HTTP 요청 파라미터 - @RequestParam
+- basic/request/RequestParamController.java
+- static/basic/hello-basic.html
+### 6.8 HTTP 요청 파라미터 - @ModelAttribute
+- basic/HelloData.java
+- basic/request/RequestParamController.java
+### 6.9 HTTP 요청 메시지 - 단순 텍스트
+- basic/request/RequestBodyStringController.java
+### 6.10 HTTP 요청 메시지 - JSON
+- basic/request/RequestsBodyJsonController.java
+### 6.11 응답 - 정적 리소스, 뷰 템플릿
+- basic/response/ResponseViewController.java
+### 6.12 HTTP 응답 - HTTP API, 메시지 바디에 직접 입력
 
 
